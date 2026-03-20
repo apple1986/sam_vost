@@ -16,8 +16,7 @@ The standard pipeline for Video Object Segmentation and Tracking consists of thr
 ---
 
 ## 2. Representative Published Works
-
-Here is the complete content from the file converted into the requested Markdown format with extracted paper links.
+<img src="Fig2_representaive_methods.png" alt="Alt text" width="500">
 
 | Method | Publication | Core Mechanisms | Advantages & Limitations |
 | :--- | :--- | :--- | :--- |
