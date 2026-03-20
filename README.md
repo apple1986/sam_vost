@@ -11,7 +11,7 @@ The standard pipeline for Video Object Segmentation and Tracking consists of thr
 1.  **Encoder**: Extracts features from the current frame[cite: 8].
 2.  **Memory/Feature Update**: Incorporates features from preceding frames to provide temporal-spatial cues, facilitating target recognition and differentiation[cite: 8, 9].
 3.  **Decoder**: Generates the final predicted mask for the current frame[cite: 10].
-
+<img src="Fig1_vost.png" alt="Alt text" width="500">
 
 ---
 
@@ -75,7 +75,6 @@ Here is the complete content from the file converted into the requested Markdown
 | **Cell Tracking** | [Link](https://celltrackingchallenge.net/datasets/) | Biological videos for cell segmentation and tracking[cite: 129]. |
 
 
-```
 
 ## BibTeX
 Please consider to cite it if it helps your research.
