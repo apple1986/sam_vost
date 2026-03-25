@@ -20,7 +20,7 @@ The standard pipeline for Video Object Segmentation and Tracking consists of thr
 
 | Method | Publication | Core Mechanisms | Advantages & Limitations |
 | :--- | :--- | :--- | :--- |
-| **[MaskTrack ConvNet](https://ieeexplore.ieee.org/document/8100115)** | CVPR 2017 | Concatenates previous mask with current frame as input to guide segmentation. | Simple and effective short-term propagation, but cannot handle large appearance changes, drift, or long-term occlusion. |
+| **[MaskTrack ConvNet](https://openaccess.thecvf.com/content_cvpr_2017/html/Perazzi_Learning_Video_Object_CVPR_2017_paper.html)** | CVPR 2017 | Concatenates previous mask with current frame as input to guide segmentation. | Simple and effective short-term propagation, but cannot handle large appearance changes, drift, or long-term occlusion. |
 | **[AOT](https://arxiv.org/abs/2106.02638)** | NeurIPS 2021 | Identification mechanism with transformer to encode instance-level embeddings and memory association. | Strong multi-object association and propagation, but suffers from memory degradation as the number of layers increase. |
 | **[SAM-Track](https://arxiv.org/abs/2305.06558)** | arXiv 2023 | Combines SAM segmentation with AOT tracking and Grounding-DINO detection. | Supports text-prompt and automatic tracking, but computationally expensive due to multi-module integration. |
 | **[SAM-PD](https://arxiv.org/abs/2403.04194)** | arXiv 2024 | Prompt denoising and temporal propagation with SAM backbone by iteratively updating the bounding box. | Improves robustness to noisy prompts, but still dependent on prompt quality and not efficient for iteratively box generation. |
