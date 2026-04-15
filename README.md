@@ -79,11 +79,17 @@ The standard pipeline for Video Object Segmentation and Tracking consists of thr
 Please consider to cite it if it helps your research.
 
 ```latex
-@article{xu2025segment,
-  title={Segment anything for video: a comprehensive review of video object segmentation and tracking from past to future},
+@article{xu2026segment,
+  title={Segment anything for video: A comprehensive review of video object segmentation and tracking from past to future},
   author={Xu, Guoping and Udupa, Jayaram K and Yu, Yajun and Shao, Hua-Chieh and Zhao, Songlin and Liu, Wei and Zhang, You},
-  journal={arXiv preprint arXiv:2507.22792},
-  year={2025}
+  journal={Neurocomputing},
+  volume={682},
+  pages={133439},
+  year={2026},
+  issn={0925-2312},
+  doi={10.1016/j.neucom.2026.133439},
+  url={https://doi.org/10.1016/j.neucom.2026.133439}
 }
+
 
 ```
